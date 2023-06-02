@@ -26,7 +26,7 @@ public class TestClass01 {
 		  - 데이터의 중복이 가능하다.
 		 */
 		
-		ArrayList<String> arr = new ArrayList<>();
+		ArrayList<String> arr = new ArrayList<>(); 
 		System.out.println(arr.size());
 		arr.add("1111");
 		arr.add("2222");
@@ -36,8 +36,9 @@ public class TestClass01 {
 		
 		System.out.println(arr.contains("2222"));
 		System.out.println(arr.contains("1212"));
+		
 		boolean bool = arr.contains("22323");
-		System.out.println("arr에 1111: " + bool);
+		System.out.println("arr에 22323: " + bool);
 		System.out.println();
 		
 		System.out.println("==== arr ====");

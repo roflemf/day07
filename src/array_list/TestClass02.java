@@ -14,6 +14,9 @@ public class TestClass02 {
 		arr.add("순대");
 		arr.add("김밥");
 		
+		//arr.set(인덱스, 바꿀값)
+		//arr.set(1, "고고마");
+		
 		System.out.println(arr);
 		
 		System.out.print("찾는 값 입력: ");

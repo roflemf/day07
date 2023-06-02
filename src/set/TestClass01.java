@@ -19,8 +19,10 @@ public class TestClass01 {
 		HashSet<String> hs = new HashSet<>();
 		ArrayList<String> arr = new ArrayList<>();
 		
-		hs.add("라면"); hs.add("김밥"); 
-		hs.add("순대"); hs.add("김밥"); 
+		hs.add("라면");
+		hs.add("김밥"); 
+		hs.add("순대"); 
+		hs.add("김밥"); 
 		
 		
 		arr.add("라면"); 	arr.add("김밥"); 	

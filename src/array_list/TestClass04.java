@@ -11,7 +11,8 @@ public class TestClass04 {
 		arr.add("홍길동");
 		arr.add("홍길동");
 		System.out.println(arr);
-		System.out.println(arr.contains("홍길동"));
+		System.out.println(arr.contains("홍길동"));	
 		System.out.println(arr.indexOf("홍길동"));
+		
 	}
 }
